@@ -8,13 +8,11 @@
 export default {
   data() {
     return {
-      message: "소고기 world!"
+      message: "소고기"
     }
   },
-
-  // `mounted` is a lifecycle hook which we will explain later
   mounted() {
-    console.log(this.data().message)
+    console.log(this.message)
   }
 }
 </script>
