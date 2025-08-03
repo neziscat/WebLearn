@@ -1,5 +1,5 @@
 {
-  "name": "weblearn",
+  "name": "front",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/axios": "^0.9.36",
+    "axios": "^1.11.0",
     "vue": "^3.5.17"
   },
   "devDependencies": {
